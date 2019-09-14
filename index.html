@@ -11,7 +11,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="images/icon.png">
-		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -46,18 +45,19 @@
 					<section id="banner">
 						<div class="inner">
 							<!-- <div class="logo"><span class="icon fa-gem"></span></div>-->
+							<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+							<strong><h2><a href="http://www.whsh.tc.edu.tw/ischool/publish_page/0/">WH</a>CSC</h2></strong>
+							<h2><span class="element"></span> </h2>
 							<script>
- 							 	var typed = new Typed('typed', {
-   						 		tringsElement: 'typed-strings'  								
-						 		});
+							var typed = new Typed('.element', {
+							  strings: ["We are <strong>Student.</strong>","We are <strong>Hacker.</strong>","We are <strong>Maker.</strong>", "We are <strong>WHCSC.</strong>","我們是<strong>文華電研</strong>"], //输入内容, 支持html标签
+							  typeSpeed: 10, //打字速度
+							  backSpeed: 20, //回退速度
+							  //smartBackspace: true,
+							  fadeOut: true,
+							  shuffle: true
+							});
 							</script>
-							<div id="typed-strings">
-    						<p>Typed.js is a <strong>JavaScript</strong> library.</p>
-   							 <p>It <em>types</em> out sentences.</p>
-							</div>
-							<span id="typed"></span>
-							<h2>We are WHCSC</h2>
-							<p><a href="http://www.whsh.tc.edu.tw/ischool/publish_page/0/">文華</a>高中電腦研習社</p>
 						</div>
 					</section>
 
