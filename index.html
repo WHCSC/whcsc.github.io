@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="images/icon.png">
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -44,9 +45,19 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<div class="logo"><span class="icon fa-gem"></span></div>
+							<!-- <div class="logo"><span class="icon fa-gem"></span></div>-->
+							<script>
+ 							 	var typed = new Typed('typed', {
+   						 		tringsElement: 'typed-strings'  								
+						 		});
+							</script>
+							<div id="typed-strings">
+    						<p>Typed.js is a <strong>JavaScript</strong> library.</p>
+   							 <p>It <em>types</em> out sentences.</p>
+							</div>
+							<span id="typed"></span>
 							<h2>We are WHCSC</h2>
-							<p>computer study club at <a href="http://www.whsh.tc.edu.tw/ischool/publish_page/0/">whsh</a></p>
+							<p><a href="http://www.whsh.tc.edu.tw/ischool/publish_page/0/">文華</a>高中電腦研習社</p>
 						</div>
 					</section>
 
@@ -169,7 +180,6 @@
 							</ul>
 						</div>
 					</section>
-
 			</div>
 
 		<!-- Scripts -->
