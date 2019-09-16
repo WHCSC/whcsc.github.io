@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url('https://fonts.googleapis.com/css?family=Chilanka|Concert+One|Modak|Noto+Sans+TC|Saira+Stencil+One|Squada+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Modak&effect=crackle');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&effect=vintage');
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
@@ -29,8 +29,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	/*font: inherit;*/
-	font-family: 'Noto Sans TC';
-	/*font-family:'AR-TianniuB5';*/
+	/*font-family: 'Noto Sans TC';*/
+	font-family:'AR-TianniuB5';
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -115,7 +115,7 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.png");
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -204,7 +204,7 @@ input, select, textarea {
 			text-decoration: none;
 			border-bottom: 0;
 			display: block;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: 'AR-TianniuB5';;
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
@@ -287,6 +287,7 @@ input, select, textarea {
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 			padding-bottom: 1em;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			font-family:'AR-TianniuB5';
 		}
 	h1 {
 		font-size: 1.5em;
@@ -3485,7 +3486,7 @@ input, select, textarea {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.png");
 				background-size: auto,
  cover;
 				background-position: center,
@@ -3597,7 +3598,7 @@ input, select, textarea {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.png");
 			background-size: auto,
  cover;
 			background-position: center,
@@ -4090,7 +4091,7 @@ input, select, textarea {
 
 		#footer {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.png");
 			background-size: auto,
  cover;
 			background-position: center,
