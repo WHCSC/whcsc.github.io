@@ -1,7 +1,9 @@
+這是文華電研的社團網站，使用GithubPage和HTML5UP的模板製成。
+
+
 Solid State by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
 
 After a somewhat extended break from HTML5 UP (to work on a secret-ish new project --
 more on that later!) I'm back with a brand new design: Solid State, a slick new multi-
@@ -21,10 +23,8 @@ Credits:
 
 	Demo Images:
 		Unsplash (unsplash.com)
-
 	Icons:
 		Font Awesome (fontawesome.io)
-
 	Other:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
