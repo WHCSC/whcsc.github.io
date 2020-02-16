@@ -3094,9 +3094,11 @@ input, select, textarea {
 	#header {
 		-moz-transition: background-color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out;
+		-webkit-backdrop-filter:blur(10px);
+		backdrop-filter:blur(10px);
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: rgba(53, 56, 73, 0.95);
+		background-color: rgba(53, 56, 73, 0.6);
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3301,7 +3303,10 @@ input, select, textarea {
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #4c5c96;
+			-webkit-backdrop-filter:blur(3px);
+			backdrop-filter:blur(3px);
+			background-color: rgba(76, 92, 150, 0.5);
+
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
