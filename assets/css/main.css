@@ -3098,7 +3098,7 @@ input, select, textarea {
 		backdrop-filter:blur(10px);
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: rgba(53, 56, 73, 0.6);
+		background-color: rgba(53, 56, 73, 0.8);
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3187,6 +3187,8 @@ input, select, textarea {
 					}
 
 		#header.alt {
+			-webkit-backdrop-filter:blur(0px);
+			backdrop-filter:blur(0px);
 			background-color: transparent;
 		}
 
@@ -3305,7 +3307,7 @@ input, select, textarea {
 			-webkit-overflow-scrolling: touch;
 			-webkit-backdrop-filter:blur(3px);
 			backdrop-filter:blur(3px);
-			background-color: rgba(76, 92, 150, 0.5);
+			background-color: rgba(76, 92, 150, 0.6);
 
 			border-radius: 5px;
 			display: block;
