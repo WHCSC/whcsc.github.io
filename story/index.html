@@ -13,10 +13,13 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<link href="dist/easyScrollDots.css" rel="stylesheet">
+
 	<link rel="icon" href="images/icon.png">
 	<link
 		href="https://fonts.googleapis.com/css?family=Chilanka|Concert+One|Modak|Noto+Sans+TC|Saira+Stencil+One|Squada+One&display=swap"
 		rel="stylesheet">
+
 </head>
 
 <body class="is-preload">
@@ -54,10 +57,10 @@
 			</style>
 			<ul>
 				<li><a href="http://whcsc.github.io">家</a></li>
-					<li><a href="#關於我們">關於我們</a></li>
-					<li><a href="#27th 百十級電研的資料">27th 百十級電研的資料</a></li>
-					<li><a href="http://whcsc.github.io/generic.html">幹部&社師介紹</a></li>
-					<li><a href="http://whcsc.github.io/photo/index.html">校外活動照片</a></li>
+				<li><a href="#關於我們">關於我們</a></li>
+				<li><a href="#27th 百十級電研的資料">27th 百十級電研的資料</a></li>
+				<li><a href="http://whcsc.github.io/generic.html">幹部&社師介紹</a></li>
+				<li><a href="http://whcsc.github.io/photo/index.html">校外活動照片</a></li>
 			</ul>
 		</nav>
 
@@ -240,20 +243,69 @@
 									<li><a href="#電資叛客 -- 迎新資料">電資叛客 -- 迎新資料</a></li>
 									<ul>
 										<li><a href="#粉專相片">粉專相片</a></li>
+										<li><a href="#教學資料IRC">教學資料</a></li>
 										<li><a href="#活動相片">活動相片</a></li>
 									</ul>
 									<li><a href="#虛原滲駭 -- 寒訓資料">虛原滲駭 -- 寒訓資料</a></li>
 									<ul>
 										<li><a href="#虛原滲駭粉專相片">粉專相片</a></li>
+										<li><a href="#教學資料HSTC">教學資料</a></li>
 										<li><a href="#虛原滲駭活動相片">活動相片</a></li>
 									</ul>
 									<li><a href="#校慶特展">校慶特展</a></li>
 								</ul>
 							</div>
 						</section>
-						<h2 id="社服">
-							社服
-						</h2>
+						<script src="dist/easyScrollDots.js"></script>
+						<script>
+							easyScrollDots({
+								'fixedNav': false,
+								'fixedNavId': '',
+								'fixedNavUpward': false
+							});
+						</script>
+
+						<div class="scroll-indicator-controller"><span></span>
+							<div class="" data-indi-controller-id="section01"
+								onclick="scrollIndiClicked('section01');"><span>社服</span>
+								<div></div>
+							</div>
+							<div class="" data-indi-controller-id="section02" onclick="scrollIndiClicked('section02');">
+								<span>名片</span>
+								<div></div>
+							</div>
+							<div class="" data-indi-controller-id="section03" onclick="scrollIndiClicked('section03');">
+								<span>公關信函</span>
+								<div></div>
+							</div>
+							<div class="" data-indi-controller-id="section04" onclick="scrollIndiClicked('section04');">
+								<span>電資叛客 -- 迎新資料</span>
+								<div></div>
+							</div>
+							<div class="" data-indi-controller-id="section05" onclick="scrollIndiClicked('section05');">
+								<span>虛原滲駭 -- 寒訓資料</span>
+								<div></div>
+							</div>
+							<div class="" data-indi-controller-id="section06" onclick="scrollIndiClicked('section06');">
+								<span>校慶特展</span>
+								<div></div>
+							</div>
+						</div>
+						<div>
+							<div class="scroll-indicator" id="section01" data-scroll-indicator-title="First Section">
+							</div>
+						</div>
+						
+						
+						<div>
+							<h2 id="社服">
+								社服
+							</h2>
+						</div>
+
+						<div>
+							
+						</div>
 						<blockquote>正面的圖案是念誠設計的，背面是香媃設計的，那個其實是念誠的頭，檔案在<a
 								href="https://drive.google.com/drive/folders/13L04n6rokHjmCfiM5CWjSYGm8ELrhlo5?usp=sharing">這裡</a>
 						</blockquote>
@@ -265,6 +317,10 @@
 							</div>
 							<div class="col-6 col-12-medium">
 								<span class="image fit"><img src="images/pic18.jpg" alt=""></span>
+							</div>
+						</div>
+						<div>
+							<div class="scroll-indicator" id="section02" data-scroll-indicator-title="Second Section">
 							</div>
 						</div>
 						<h2 id="名片">
@@ -282,6 +338,10 @@
 								<span class="image fit"><img src="images/pic17.png" alt=""></span>
 							</div>
 						</div>
+						<div>
+							<div class="scroll-indicator" id="section03" data-scroll-indicator-title="Last Section">
+							</div>
+						</div>
 						<h2 id="公關信函">
 							公關信函
 						</h2>
@@ -294,6 +354,10 @@
 							</div>
 							<div class="col-6 col-12-medium">
 								<span class="image fit"><img src="images/pic20.jpg" alt=""></span>
+							</div>
+						</div>
+						<div>
+							<div class="scroll-indicator" id="section04" data-scroll-indicator-title="Last Section">
 							</div>
 						</div>
 						<h2 id="電資叛客 -- 迎新資料">
@@ -309,6 +373,16 @@
 
 							</div>
 						</div>
+						<h3 id="教學資料IRC">教學資料</h3>
+						<article>
+							<p>
+								<a
+									href="https://drive.google.com/file/d/1zLep2161S3bF7L9jYjd15AYud-EFW7PP/view?usp=sharing">
+
+									Python 基礎語法</a><br>
+							</p>
+						</article>
+
 						<a href="https://photos.app.goo.gl/QsQYKarqwsYJhRnN9">
 							<h3 id="活動相片">活動相片<sub>這是連結</sub></h3>
 						</a>
@@ -339,7 +413,10 @@
 								</ul>
 							</div>
 						</div>
-
+						<div>
+							<div class="scroll-indicator" id="section05" data-scroll-indicator-title="Last Section">
+							</div>
+						</div>
 						<h2 id="虛原滲駭 -- 寒訓資料">虛原滲駭 -- 寒訓資料</h2>
 						<blockquote><a href="https://www.facebook.com/HSTCwintercamp2020/">FB</a> , <a
 								href="https://www.instagram.com/hstc_14/?hl=zh-tw">IG</a></blockquote>
@@ -352,6 +429,27 @@
 								<span class="image fit"><img src="images/pic24.png" alt=""></span>
 							</div>
 						</div>
+						<h3 id="教學資料HSTC">教學資料</h3>
+						<article>
+
+							<p>
+								<a
+									href="https://drive.google.com/file/d/1Il2wegoyF6SBC-IOHcVOkjUP6rdRqKgJ/view?usp=sharing">
+
+									Python 基礎語法</a><br>
+								<a
+									href="https://drive.google.com/file/d/1chGLEEb6aviijNRQOLH8LLZ_JzWu8WLy/view?usp=sharing">
+
+									Python 語法懶人包</a><br>
+								<a href="https://hackmd.io/@UltraGeek/ryuS9iyy8">
+
+									pygame 筆記</a><br>
+								<a href="https://drive.google.com/file/d/14xPnG8T8zQGif8nW3oNFTHYFvXysTX8Y/view">
+									pygame 簡報</a><br>
+								<a href="https://slides.com/itchw">pygame 貪食蛇製作</a>
+								<br>
+							</p>
+						</article>
 						<a href="https://photos.app.goo.gl/3cZwJPvnsT4HBPc88">
 							<h3 id="虛原滲駭活動相片">活動相片<sub>這是連結</sub></h3>
 						</a>
@@ -383,6 +481,10 @@
 									<p>大合照</p>
 									<span class="image fit"><img src="images/pic33.jpg" alt=""></span>
 								</ul>
+							</div>
+						</div>
+						<div>
+							<div class="scroll-indicator" id="section06" data-scroll-indicator-title="Last Section">
 							</div>
 						</div>
 						<h2 id="校慶特展">
