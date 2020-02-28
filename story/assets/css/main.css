@@ -3319,19 +3319,21 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper > * > .inner {
-		width: 95%;
+		width: 100%;
 		max-width: 68em;
 		margin: 0 auto;
-		padding-left:0 0.25em;
-		padding-right: 80px;
+		padding-left:2%;
+		padding-right: 4%;
 
 	}
 
 		@media screen and (max-width: 736px) {
 
 			#wrapper > * > .inner {
-				padding-left:0 0.25em;
-				padding-right: 80px;
+				padding-left:4%;
+				padding-right: 8%;
+				/* padding-left: 15px;
+				padding-right: 25px; */
 			}
 
 		}
