@@ -1,4 +1,4 @@
-#WHCSC GitHub page
+# WHCSC GitHub page
 
 初版由百十幹部ncchen製作, 模板取自HTML5up, 現由百土幹部共同維護
 
